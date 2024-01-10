@@ -125,7 +125,15 @@
 		              <label for="name">Name</label>
 		              <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
 		            </div>
-		
+                            <!--  Select Class -->
+			    <div class="form-floating mb-3">
+				<select class="form-select" aria-label="Default select example">
+  				<option selected>Open this select menu</option>
+				  <option value="1">One</option>
+				  <option value="2">Two</option>
+				  <option value="3">Three</option>
+				</select>
+			    </div>
 		            <!-- Email Input -->
 		            <div class="form-floating mb-3">
 		              <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
@@ -139,7 +147,7 @@
 		              <input class="form-control" id="emailAddress" type="number" placeholder="Mobile number" data-sb-validations="required,mobilr" />
 		              <label for="mobileNumber">Mobile Number</label>
 		            </div>
-		
+				
 		            <!-- Message Input -->
 		            <div class="form-floating mb-3">
 		              <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
